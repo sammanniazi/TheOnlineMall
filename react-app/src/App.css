@@ -1,0 +1,24 @@
+/* navbar */
+
+.navbar-nav a{
+  font-size: 18px;
+}
+a {
+  font-size:18px;
+  font-weight:700
+}
+
+.card {
+	color:#fff;
+    width: 350px;
+    border-radius: 10px;
+   background: linear-gradient(145deg, #9a40a9, #b74cc9);
+
+    border: none
+
+}
+body {
+  display: grid;
+  /* place-items: center; */
+  background: pink;
+}

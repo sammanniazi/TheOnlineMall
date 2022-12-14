@@ -1,0 +1,13 @@
+.Products-wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .ProductCard-wrapper {
+    flex-grow: 1;
+    border: solid 1px #ccc;
+    padding: 15px;
+  }
