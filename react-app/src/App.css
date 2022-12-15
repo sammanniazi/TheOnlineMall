@@ -17,8 +17,4 @@ a {
     border: none
 
 }
-body {
-  display: grid;
-  /* place-items: center; */
-  background: pink;
-}
+

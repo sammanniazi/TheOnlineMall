@@ -4,12 +4,16 @@ import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import { useState } from "react";
 import { useNavigate,Link } from "react-router-dom";
+import Header from '../Layouts/Header';
+import Footer from '../Layouts/Footer';
 
 
 function Signup() {
   const [data, setData] = useState([]);
  
   const [Name, setName] = useState("");
+  const [Email, setEmail] = useState("");
+  const [Password, setPassword] = useState("");
   
   const [tempdata, setTempdata] = useState([]);
   const navigate = useNavigate();
@@ -32,6 +36,8 @@ function Signup() {
     const user = {
       
       Name: Name,
+      Email:Email,
+      Password: Password
       
       
      
@@ -50,10 +56,12 @@ function Signup() {
         if (res.status === 201) {
           
           setName("");
+          setEmail("");
+          setPassword("");
           
           localStorage.setItem("user", JSON.stringify(user))
           // alert("user created successfully");
-          navigate("/home");
+          navigate("/");
         } else {
           console.log("Some error occured");
         }
@@ -65,18 +73,39 @@ function Signup() {
   };
 
   return (
-    <div className="container mt-5 w-25 border p-5">
+    <>
+
+    <Header/>
+<br/>
+    <div className="container mt-5 w-25 border p-5 shadow bg-white rounded">
       <Form>
         
 
         <Form.Group className="mb-3" controlId="formBasicPassword">
           <Form.Label>Name</Form.Label>
-          <Form.Control
+          <Form.Control className="bg-light"
             type="text"
             placeholder="Name"
             value={Name}
             onChange={(e) => setName(e.target.value) }
           required/>
+
+<Form.Label>Email</Form.Label>
+          <Form.Control className="bg-light"
+            type="text"
+            placeholder="Email"
+            value={Email}
+            onChange={(e) => setEmail(e.target.value) }
+          required/>
+
+<Form.Label>Password</Form.Label>
+          <Form.Control className="bg-light"
+            type="text"
+            placeholder="Password"
+            value={Password}
+            onChange={(e) => setPassword(e.target.value) }
+          required/>
+
         </Form.Group>
        
         
@@ -89,10 +118,14 @@ function Signup() {
         <br></br>
       <h3> Login if you have User</h3>
 
-      <Link to="/home">Login</Link>
+      <Link to="/login">Login</Link>
       <br></br>
       </Form>
     </div>
+
+    <hr/>
+    <Footer/>
+    </>
   );
 }
 

@@ -15,17 +15,18 @@ const Navbar = () => {
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
                             <li class="nav-item">
-                                <a className="nav-link active" aria-current="page" href="#">Home</a>
+                                <Link to="/" className="nav-link active" aria-current="page" >Home</Link>
                             </li>
                             <li className="nav-item dropdown">
                                 <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Men
                                 </a>
                                 <ul className="dropdown-menu">
-                                    <li><a className="dropdown-item" href="#">Action</a></li>
-                                    <li><a className="dropdown-item" href="#">Another action</a></li>
+                                <li><Link to="/bagsm" className="dropdown-item" >Bags</Link></li>
+                                    <li><Link to="/clothm" className="dropdown-item" >Clothing</Link></li>
                                     <li><hr className="dropdown-divider" /></li>
-                                    <li><a className="dropdown-item" href="#">Something else here</a></li>
+                                 
+                                    <li><Link to="/shoesm" className="dropdown-item" >Shoes</Link></li>
                                 </ul>
                             </li>
                             <li className="nav-item dropdown">
@@ -36,8 +37,8 @@ const Navbar = () => {
                                     <li><Link to="/bagsw" className="dropdown-item" >Bags</Link></li>
                                     <li><Link to="/clothw" className="dropdown-item" >Clothing</Link></li>
                                     <li><hr className="dropdown-divider" /></li>
-                                    <li><Link to="jewleryw" className="dropdown-item" href="#">Jewlery</Link></li>
-                                    <li><Link to="/shoesw" className="dropdown-item" href="#">Shoes</Link></li>
+                                    <li><Link to="jewleryw" className="dropdown-item" >Jewlery</Link></li>
+                                    <li><Link to="/shoesw" className="dropdown-item" >Shoes</Link></li>
                                 </ul>
                             </li>
                             <li className="nav-item dropdown">

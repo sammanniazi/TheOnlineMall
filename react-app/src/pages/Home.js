@@ -6,9 +6,13 @@ import Header from '../Layouts/Header';
 
 import Footer from '../Layouts/Footer';
 import Topchart from '../Components/Topchart';
-import Cardhome from '../Components/card';
+import Bestseller from '../Layouts/category_cards/bestsellercard';
+import NewsLetter from '../Components/newsletter';
+
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
+
+
 
 
 
@@ -41,11 +45,13 @@ function Home() {
 
 
 
-        <Cardhome/>
+        <Bestseller />
         <hr/>
 
-<br/>
+        <NewsLetter/>
 
+<br/>
+<hr/>
      
    <Footer/>
 

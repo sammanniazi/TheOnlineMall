@@ -13,7 +13,8 @@ import { useNavigate } from "react-router-dom";
 function Login() {
   const navigate = useNavigate();
 
-  const [name, setName] = useState("");
+  const [Email, setEmail] = useState("");
+  const [Password, setPassword] = useState("");
 
 
   async function validation() {
@@ -24,7 +25,7 @@ function Login() {
         // localStorage.setItem("user", JSON.stringify(user))
         
         json.map((element) => {
-          if (element.Name == name ) {
+          if (element.Email == Email && element.Password==Password ) {
             localStorage.setItem("user", JSON.stringify(element))
             userFound=true;
           }
@@ -53,23 +54,23 @@ function Login() {
 <Header/>
 <br></br>
 
-    <div className="container mt-5 w-25 border p-5 bg-info">
+    <div className="container mt-5 w-25 border p-5 shadow bg-white rounded">
       <Form>
         <Form.Group className="mb-3">
           <Form.Label>Email</Form.Label>
-          <Form.Control
+          <Form.Control className="bg-light"
             type="Text"
             placeholder="Email"
-            value={name}
-            onChange={(e) => {setName(e.target.value)
+            value={Email}
+            onChange={(e) => {setEmail(e.target.value)
               }}
           />
           <Form.Label>Password</Form.Label>
-          <Form.Control
+          <Form.Control className="bg-light"
             type="Text"
             placeholder="Password"
-            value={name}
-            onChange={(e) => {setName(e.target.value)
+            value={Password}
+            onChange={(e) => {setPassword(e.target.value)
               }}
           />
 
