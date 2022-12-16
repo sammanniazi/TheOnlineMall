@@ -15,7 +15,7 @@ const Footer = () => <footer className="page-footer font-small blue pt-4">
             <div className="col-md-6 mt-md-0 mt-3">
                 <h5 className="text-uppercase">Links</h5>
                 <ul className="list-unstyled">
-                    <li><a href="#!">facebook</a></li>
+                    <li><a href="#!">facebook Lite</a></li>
                     <li><a href="#!">instagaram</a></li>
                     <li><a href="#!">twitter</a></li>
                 
