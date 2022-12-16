@@ -47,7 +47,17 @@ function Homecard() {
                   <div className="card-body">
                     <h5 className="card-title">{products.title.substring(0,12)}</h5>
                     <p className="card-text">${products.price}</p>
-                    <a href="#" className="btn btn-outline-dark">Buy Now</a>
+                    <button onClick={() => localStorage.setItem("user", JSON.stringify(products))
+
+
+                    
+        
+                  
+                  }>
+              add to cart
+            </button>
+            
+            
                   </div>
                   
                 </div>
@@ -65,6 +75,7 @@ function Homecard() {
       </div>
       </div>
       </div>
+     
     </>
   );
 }

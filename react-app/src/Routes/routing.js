@@ -22,6 +22,10 @@ import Clothm from '../pages/Men/clothing';
 import Shoesm from '../pages/Men/shoes';
 import Bagsm from '../pages/Men/bags';
 
+
+//add to cart
+import Addtocart from '../pages/Cart/addtocard';
+
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 
@@ -51,6 +55,9 @@ function Routing() {
         <Route path="/bagsm" element={<Bagsm/> } />
         <Route path="/clothm" element={<Clothm/> } />
         <Route path="/shoesm" element={<Shoesm/> } />
+
+
+        <Route path="/addtocart" element={<Addtocart/> } />
 
         
         
