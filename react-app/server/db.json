@@ -18,7 +18,7 @@
       "id":1,
       "title":"kurta ",
       "price":"10",
-      "quantity":"1",
+      "quantity":1,
       "category":"women dress",
       
       "description":"This is lawn kurta by khaddi",
@@ -30,7 +30,7 @@
     "id":2,
     "title":"kurta ",
     "price":"10",
-    "quantity":"1",
+    "quantity":1,
     "category":"women dress",
     
     "description":"This is lawn kurta by khaddi",
@@ -43,7 +43,7 @@
     "id":3,
     "title":" Classic Kurta",
     "price":"10",
-    "quantity":"1",
+    "quantity":1,
     "category":"women dress",
     
     "description":"This is lawn kurta by khaddi",
@@ -54,7 +54,7 @@
     "id":4,
     "title":" Round shape T shirt",
     "price":"70",
-    "quantity":"1",
+    "quantity":1,
     "category":"women dress",
     
     "description":"This is lawn kurta by khaddi",
@@ -65,7 +65,7 @@
     "id":5,
     "title":"kurta ",
     "price":"10",
-    "quantity":"1",
+    "quantity":1,
     "category":"women dress",
     
     "description":"This is lawn kurta by khaddi",
@@ -77,7 +77,7 @@
   "id":6,
   "title":"kurta ",
   "price":"10",
-  "quantity":"1",
+  "quantity":1,
   "category":"women dress",
   
   "description":"This is lawn kurta by khaddi",
@@ -88,7 +88,7 @@
     "id":7,
     "title":" shoes",
     "price":"70",
-    "quantity":"1",
+    "quantity":1,
     "category":"Men Shoes",
     
     "description":"This is best",
@@ -100,7 +100,7 @@
     "id":8,
     "title":" shoes",
     "price":"70",
-    "quantity":"1",
+    "quantity":1,
     "category":"Men Shoes",
     
     "description":"This is best",
@@ -111,7 +111,7 @@
     "id":9,
     "title":" black shoes",
     "price":"70",
-    "quantity":"1",
+    "quantity":1,
     "category":"Men Shoes",
     
     "description":"This is best",
@@ -122,7 +122,7 @@
     "id":10,
     "title":" Sneakers",
     "price":"70",
-    "quantity":"1",
+    "quantity":1,
     "category":"Men Shoes",
     
     "description":"This is best",
@@ -134,7 +134,7 @@
     "id":11,
     "title":" Sneakers",
     "price":"70",
-    "quantity":"1",
+    "quantity":1,
     "category":"Men Shoes",
     
     "description":"This is best",
