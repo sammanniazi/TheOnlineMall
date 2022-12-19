@@ -9,11 +9,10 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { Button, CardActionArea, CardActions } from '@mui/material';
-import Grid from "@mui/material/Grid";
 
 
 
-function Bestsell(props) {
+function WomenC(props) {
 
 
 
@@ -57,8 +56,7 @@ function Bestsell(props) {
 
                     <div className="row text-center">
                         {data.map((products, item) => (
-                            <div key={item} className="col-6 col-md-4 mt-5">
-                                
+                            <div key={item} className="col-10 col-md-4 mt-5">
                                 <Card sx={{ maxWidth: 345 }} style={{ backgroundColor: "#e0f7fa" }}>
                                     <CardActionArea>
                                         <CardMedia
@@ -97,4 +95,4 @@ function Bestsell(props) {
     );
 }
 
-export default Bestsell;
+export default WomenC;

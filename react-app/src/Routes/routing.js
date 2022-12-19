@@ -22,6 +22,7 @@ import Clothm from '../pages/Men/clothing';
 import Shoesm from '../pages/Men/shoes';
 import Bagsm from '../pages/Men/bags';
 
+import  Billform from  '../pages/Cart/Billingform'
 
 //add to cart
 import Addtocart from '../pages/Cart/addtocard';
@@ -31,42 +32,44 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 
 function Routing() {
-  
 
 
-  
-  
+
+
+
   return (
     <>
-   
-    <div className="App">
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Home/> } />
-        <Route path="/signup" element={ <Signup/> } />
-        <Route path="/login" element={<Login/> } />
 
-        <Route path="/bagsw" element={<Bagsw/> } />
-        <Route path="/clothw" element={<Clothw/> } />
-        <Route path="/jewleryw" element={<Jewleryw/> } />
-        <Route path="/shoesw" element={<Shoesw/> } />
+      <div className="App">
+        <BrowserRouter>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/signup" element={<Signup />} />
+            <Route path="/login" element={<Login />} />
 
-
-        <Route path="/bagsm" element={<Bagsm/> } />
-        <Route path="/clothm" element={<Clothm/> } />
-        <Route path="/shoesm" element={<Shoesm/> } />
+            <Route path="/bagsw" element={<Bagsw />} />
+            <Route path="/clothw" element={<Clothw />} />
+            <Route path="/jewleryw" element={<Jewleryw />} />
+            <Route path="/shoesw" element={<Shoesw />} />
 
 
-        <Route path="/addtocart" element={<Addtocart/> } />
+            <Route path="/bagsm" element={<Bagsm />} />
+            <Route path="/clothm" element={<Clothm />} />
+            <Route path="/shoesm" element={<Shoesm />} />
 
-        
-        
-        
-      </Routes>
-      </BrowserRouter>
-      
 
-    </div>
+            <Route path="/addtocart" element={<Addtocart />} />
+            
+            <Route path="/billingform" element={<Billform />} />
+
+
+
+
+          </Routes>
+        </BrowserRouter>
+
+
+      </div>
     </>
 
 

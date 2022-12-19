@@ -7,7 +7,7 @@ import Button from "react-bootstrap/Button";
 const newsletter = () => {
     return (
         <div>
-            <div className="container  w-35 border p-5 shadow bg-dark rounded mt-0">
+            <div className="container  w-30 border p-5 shadow bg-dark rounded mt-0">
     
     <div className="row align-items-center ml-4">
 

@@ -1,15 +1,17 @@
 
 import React from 'react';
 
-
+import { useState } from "react";
 import Header from '../../Layouts/Header';
 
 import Footer from '../../Layouts/Footer';
 
 
-import Cardhome from '../../Components/card';
+//import Cardhome from '../../Components/card';
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
+import Cardtry  from './jewlerycard';
+import LocalDataHandler from "../../localData/local";
 
 
 
@@ -19,10 +21,20 @@ import "bootstrap/dist/js/bootstrap.bundle.min.js";
 
 
 
-function Jewleryw() {
+
+function Jewleryw(props) {
   
 
+  const [cart, setCart] = useState(LocalDataHandler.cart);
 
+  const AddToCart = (item) => {
+    console.log("Fn Call");
+    let tempCart = cart;
+    tempCart.push(item);
+    setCart([...tempCart]);
+    LocalDataHandler.cart = tempCart;
+    console.log(LocalDataHandler.cart);
+  };
   
   
   return (
@@ -31,7 +43,7 @@ function Jewleryw() {
    
 
 
-   <Header/>
+   <Header cart={cart}/>
    
    
 
@@ -40,7 +52,7 @@ function Jewleryw() {
       <h1>women Shoes</h1>
  </div>
 
-        <Cardhome/>
+        <Cardtry AddToCart={AddToCart}/>
 
 
 

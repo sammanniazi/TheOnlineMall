@@ -21,7 +21,7 @@ const Toppic = () => {
          <a className="btn btn-light btn-lg mr-4" href="#" role="button">Register as Seller</a>
      </div>
      </div>
-     <div class="col-md-6 ">
+     <div className="col-md-6 mt-0 ">
          <img src={Hello3} alt="image" className="img-fluid"/>
      </div>
 
