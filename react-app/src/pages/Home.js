@@ -36,9 +36,15 @@ function Home() {
       </div>
 
       <Bestseller AddToCart={AddToCart} />
+<<<<<<< HEAD
  
 
      
+=======
+      <hr />
+
+      <NewsLetter />
+>>>>>>> 37a5edb81d5983a122dda08fdb69387246572255
 
       <br />
       <hr />

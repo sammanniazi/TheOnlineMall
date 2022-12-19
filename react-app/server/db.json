@@ -15,6 +15,7 @@
   ],
   "bestSeller": [
     {
+<<<<<<< HEAD
       "id": 1,
       "title": "kurta ",
       "price": "10",
@@ -157,5 +158,140 @@
       ],
       "id": 3
     }
+=======
+      "id":1,
+      "title":"kurta ",
+      "price":"10",
+      "quantity":1,
+      "category":"women dress",
+      
+      "description":"This is lawn kurta by khaddi",
+      "image":"data:image/jpeg;base64,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"
+      
+  },
+
+  {
+    "id":2,
+    "title":"kurta ",
+    "price":"10",
+    "quantity":1,
+    "category":"women dress",
+    
+    "description":"This is lawn kurta by khaddi",
+    "image":"https://pk.khaadi.com/media/catalog/product/e/s/est22113_off-white_1_1.jpg?quality=95&bg-color=255,255,255&fit=bounds&height=&width="
+
+  },
+
+
+  {
+    "id":3,
+    "title":" Classic Kurta",
+    "price":"10",
+    "quantity":1,
+    "category":"women dress",
+    
+    "description":"This is lawn kurta by khaddi",
+    "image":"https://pk.khaadi.com/media/catalog/product/e/s/est22480_blue_2.jpg?width=300&height=&canvas=300:&quality=95&bg-color=255,255,255&fit=bounds"
+
+  },
+  {
+    "id":4,
+    "title":" Round shape T shirt",
+    "price":"70",
+    "quantity":1,
+    "category":"women dress",
+    
+    "description":"This is lawn kurta by khaddi",
+    "image":"https://pk.khaadi.com/media/catalog/product/w/c/wckt22405_white_2.jpg?width=300&height=&canvas=300:&quality=95&bg-color=255,255,255&fit=bounds"
+
+  },
+  {
+    "id":5,
+    "title":"kurta ",
+    "price":"10",
+    "quantity":1,
+    "category":"women dress",
+    
+    "description":"This is lawn kurta by khaddi",
+    "image":"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxIQEA8PDxAQDw8PDw8PEA8PDw8PDw8PFRUWFxURFRUYHSggGBolGxgVITEhJSkrLi4uFx8zODMsNygtLisBCgoKDg0OGxAQGi0dIB8tKy8uLTYrLS8tLS0tLy0tLy0uMistLS0tLy83LS0tLSstLS0tLS0tLS0rLi0tLSstLf/AABEIARMAtwMBIgACEQEDEQH/xAAbAAACAwEBAQAAAAAAAAAAAAAAAQIDBAUGB//EAD4QAAIBAgMFBQYDBgUFAAAAAAABAgMRBBIhBRMxQVEiYXGBkQYUMqGxwSNSYgdTcoLS4UJDstHwM2ODouL/xAAZAQEBAQEBAQAAAAAAAAAAAAAAAQIDBAX/xAApEQEBAAIBAgUEAgMBAAAAAAAAAQIRAyExEkFRcbETYYHBItEykfAE/9oADAMBAAIRAxEAPwD2CQ7DsOx5XQkh2HYdgFYdhpDsArDHYYCsFhlGPxkKFKdarLJTpxcpS46dEubfBLm2BcgZ8l2l+0LGYitu8HFUKbbjFbuNWs+km3dJ9yWnVkNl+3WNwlWMcdnr0G7SzwjGrBfmg0lmt0fyL4T7vrLRFiw1eNWEKlOSnTqRU4SXCUWrpomyCqSKZl8yiYFMiqRZNlMmBFkCTIgAAADSAlEAO1YaQ7DALAOwwFYYDSALEkgGArHgP2sY1xhh6CdoylOrPvyWUU+67b8kfQD5R+17NPF4ajTWaUsP2Y3SzNznor89OHPgJ3XGbafZXBUMPSjWqWVaslL4ZSlGD+FaLS/Ej7Z16doUpQi88c953WjslZJXbudXC7GjiaNB1JTjGEIZqSeVZ0knmXN8tehH2mjCO7z04WjonUcfgtwSffb5nn3vLb6Mxvh1GL9mG1nCdbZ05XjFe8YZv93KznBeDafnI+hNHyWniIUtpbOqxtHNWVHTS9Od4PyWdep9bbPRvfV4OTHw5aUzM9Q0VGZKjDCmbKpMlNlUmANiuRzCUgJ3GiKZJCixAERgdywxpDsArDSHYYEbDsMABIBhYAPCe3mysNWxFGtWxTw9SnTjGmoxu80ZuSk5WdleS4rke8PJ+2+xlXp3UlTqfApuObR87X4r7sxllp34MZb1cPYntJRlWqYVZ+zFShNq0asVo5Rto1fg+Zs2xLDuDeufjfXV99zyUaG52jhlC86dPDrDSnFX7a7WVpcNHF+Z7fHbNdaLUIOUraK2XV8Lt6I4Zzw2a83sw5Ol3XyfaG0nPG05RTSw9WChHm5RkpX82l6H32jVU4xnF3jOKlF9YtXTPj+3PYXEUXKsnGdaUoSVCn2nZ6N5nbtcHbx1Pb+yG0qkKdLD4qnOm5RcqUpRko/qpt8E76rufRJv1WzU0+fl129LWMdVmrEMwVZBhTORU5CnIqcgLLhcruNMC1MsiyhMsiwL4gKLAD0dh2AAAB2HYBIaQAAABOFNvh68iWjPia6hG78l1fQ8ntCdTESnTjNU40oOU6ktVG/dzfd3M6XtTjZQq06MYTaUW5Sy9mU5fCo26JS9TzrxEnTjh4pqdWtOdV21aSyqPr9zz55btvlHfxfT45rvlS2LsxKtB0M0KdObk5t5p1ako3lKcn8TenorWPdVYNypPjelUvd6XUoW+/qzDh8IqcUktc0n6JI624zTpfljSqX0u9ZQt9GcZnllPzf0WTwfn+mVU9eEWk0r5v7dSdK6kqbindz4NcrWZOtg8t33riomFtxrqSvZ9NLO3Q3blO8YV4lPNU5ZXqunayo5tWR0q8XbFyd7SlFa8bxipN/OJyJy6nbjz8XRixVNkQYHRCuNCGUSRYmVImmNi6DAjFgNj1YJDAsAA7DSGwrBYkBKCMS+nL8O8llSctOtupVTlZp8bO5HHxbpSs7JvWXRPV27+B5+bd1GsXj9sYp1K6lyjd+dzk+yTdVxk9bKTUno3eo+Jt2vWUc7ppyULU20naL4td7NPsJs5xw8XP4mp+m8epnl1jxXGejf/o6Xjj01Snqu/efU1zp5pLtSS3a0T43ZDERtb+f6otv24rrCL8lJX+qOfD2nvfiN7sxnvf0zbTwMYwnJOV1HNdOz04nDpzqKT/zE0pxf+K/RdT0+1Wsq7018medwztJdz+TPT4upM7e/VCtWdSOKqdpQsoRT0e8cYOenhlXqczjCLOlVq9jEQ/7lNrzT+0TNhMO5UanWDbXlqzlhdZ+7nnGIAA9LmAAABEkyIXAtiwIJgB7IaBEigAAIAAAAIzd1l5dO8kQCxya2zEqU4/E5Nyelrc9Dr4TCKnCMVygvnK5OnTuvHQ2V46v+FfU8fJN+O/aM8mW88f8AvJixnL/yfVCqJ56dv3U+b/NAeM4r+f6iqTe8pJK96c791pQMYa8E978R6L/hPe/pVtyElGDur3enl1PPTquMlfT5notvyllg7aX4X1PN4u0raNNep06b/ixFO/vGtLrilDyhTX9Z39l4fLFRa+NXa8dDgYSleFOPHt1arfVOo7f+uU9ZBawfdYm+vtZ/S142rDLKUXxjJxfk7ETdtunlr1O9qXqk387mE9jnYAAAgABMBgRAD3IAAAAAA0JjEAEWSIsK04dax9S7FStL+VP5kacdY8OS4q/BchYl9tXduzL5Hlsv08593nyuuWMmOWq/n+oqsrTpWdnuqnK/+KmTxvK36+VujCdRRqUU3a9Gra642lS4epzwwtxknrfiPfeuE978Rj29KWWDvL0+x57H1Xu5Pg4ptSXcei27jYPLq/G2hw8ZQjUjJX0nFxunyasbvHlj5s3CzvFexZZsPh3zdOKb77Hp6X/Ti+ljyPsc28LTjL46M5Up/wAUJOL+aPX0tKbu0kr8Wl3mcp/Kz7JXD9p6fbpzX+KLj5p3+5xju7fqwlThacXJTTsmm7OLv9jhHrwu5KwAADQCJITQRFgMAj3IAAAh3EADuIAC6BBkmRXGK6yXoTK6g3J2klyUrd71XFkKku3Frq16oVSVnJ9Hf5ohJ6xf6190efC24Zfl5eXpyT8fKvGSbSu2+PF/pQlSUq1NuzyUKi1/VKn/AEMMW9F4/b+w8NP8ZdJUF6xn/wDXyOXD2m/W/Ee/d8M97+le26MWloraaHmMThnHWnK3c9Ueq2vNW/ujz2Jlpc9PsuGVnZ5LCbSqw98jGW7W9lJ5Ur5m3fU3YXOrTnUnUqOKTlNuT+ZznD8OpP8Ae1tO9Xf+51IjGS22t811JrotUiRWmTTOrzmAAACGANIgDGE09wA7BYGiALADQABADZkq4lxqKKV7KLfdd6f6WaTJiKDzZ1qnZSXRLmjrw44ZZazTK3XRbUqPK229e/8A50RkdV2Ubtyk1xbdtTRiJrInfi9PQy4VpzT8z62PHjO0eatzfEzTvvU+lJLj1k/6TRzZT/mT6KnSXnep/uizGei7rJtV+K7PVo8ttjaEqdJq98zUIvmnJpHqdqLj/D9jx236WaMeSjVhJt8Ek+Zx5eLDLG7jfHbtPGRsqSVssKkI9yas9TW1qznyqXorVfi4icr/AKUorN9DZTeh8jHjslte7nsti1FiRXEsRXAwALAADsKwAAAB7kAABCJEQAAEwIgAALD4eO8vbimn0fPh10N0MLFX7K9DHB2afRnSvqzpMrfNNOLtmOTJOOkcyUlytc3T2XZyeZ9q3JXViraSThOL8UdmZ1x5c55pcY8jtTDPW7vxWnTgeT2zh18M9YyWqfT/AJc9xtSfafi/qeW2jhYTnmlFSaSSb14Gvr5TvaTHXWPMyimoxheWVKMIwXZivp4s6uCpyUIqds3O2tuivzNKpJaJW8FYmonDLOWak1Gutu6UUTsOwjmCwAAAAAAgG0AHuAI5iLkBO4iu4ZgJ3BsrzBmAkBG4XAmkbIz4eCMSZZCr2orqn9TWIy7fi8jlHivod+XA4+0o3jl/M0vVnUru0ZeDNxK85tCXaZxq61Ohiql3JmGZjJYyuJHKXuJFxMisLEmhWAVhNErCsArBYlYLAQsBOwAerzhmKkSAm2K4gAdwuIAHcLkGxZgLVIU52yvo/loQTCavGVuKV15Fg24qWkJcs8P9SOhifhl4M5NOeal5HZtda8zaV5DGqzkYWdXatKzbXBpnKM5LELCsWEDIg4kbForAVATyg0BACVgsBECdgA9DFk7lKmSUgLLhcrzBmAsuRbI5hZgCTIjbFcCaL8JrJLqmvkZky7CS7cfG3qIDDrLKdN8Hex3Y8F4I4+0admprzOzHgvBHRK81taonw6M46Z0tou9/M5+UzkqDYieUHEyK2wuKSK5SAszBcocyO9A0XFmM++FvgNLkBkdYAOysSS96MmVhlA1+9B70ZLBYDWsUP3kx2FYDb7yHvJiADesQTpYq0k+jT9Gc9MGB6+vG6aNiei8EZIWdujgpGiXw+COiV5jH/YwOojbtTT0Rx5zsYyVpdVFU8QYKuKsZZ1myDfVxSM08UZ1TkySwwBLEkN8y3cpA4oCreMW8ZNkZMBbxgRYgPW7sN2a8g8oTbHuhbo25RZQbZN0LdGzKLKFY9yJ0jW4kcoGR0xNGtxKcVdRbja+iV+F2Fk3dMmMdeapUaFV03OtRjK08st1KajJxv439T3mLVoSkuUXofK6WPeeumpbyhKjKU6bWaDbbjxa/LyOzgPamsqU41HGuozcU5XTsrP4lx8WiTLXWu+XHlZMZ5bX7dxDSu1a7sle5w7Tma8LtH3zNKUMm7la2bMnfyRuSUehbduNlnRzKez+pesKkXzrrkZp1Qgmkiicgd2TjQbCM7I5DfHDE1hwObuWSWHOmqA90BzfdgOnuwA7mUMpOwWDKGUMpOwWAhlDKTsJhdq3ATiWiCqnApr0cytr5GpkGFcLGbIlUaz1ZWXJU6K+eUz7V2bkwtfcK9SMYyinJub7SUnl4t2+h6OcbnnNvRnBVJuoow7Ns01CEY2S1vxblf5C/7duLKzOX0cn2UnUp05b28d5N5VKNmsul3z439O87E61zztSsoznll+Hmbjq5Ryu7v9eHQ72z7SSduKXfYm52Xntyyud804xb4IuhhXzNlOmWKJXBnhhkWRpIusARXlDKTGBVlFYtsICuwE7AB2bCLMonErKArjaItDQBAA0ExEhEEWRsSZGQa2i0cbbLcU+1TirPWrGUknbimuB2WV1Ip8VcNY3V2+cKFLLGm629l+IvwKM03mm5JXeisnZa8j1mxMJKNNZk49FL4rd/edeNKK4JLwSRJgudvdXYBtiLIxsyLJEWVAAANAEMBoKwDAml27YgAqISISAAIgAADIsAJ5qRFgApEWQYwIqAmAAqAABqMgixgAgAAAAAAAAA/9k="
+    
+},
+
+{
+  "id":6,
+  "title":"kurta ",
+  "price":"10",
+  "quantity":1,
+  "category":"women dress",
+  
+  "description":"This is lawn kurta by khaddi",
+  "image":"https://pk.khaadi.com/media/catalog/product/e/s/est22113_off-white_1_1.jpg?quality=95&bg-color=255,255,255&fit=bounds&height=&width="
+
+},
+  {
+    "id":7,
+    "title":" shoes",
+    "price":"70",
+    "quantity":1,
+    "category":"Men Shoes",
+    
+    "description":"This is best",
+    "image":"https://media.istockphoto.com/id/187310279/photo/brown-leather-shoe.jpg?s=612x612&w=0&k=20&c=N-G1SP8dDojp3M_ykS7tQuYI8OVPWM0XA8_knBiWRtY="
+
+  },
+
+  {
+    "id":8,
+    "title":" shoes",
+    "price":"70",
+    "quantity":1,
+    "category":"Men Shoes",
+    
+    "description":"This is best",
+    "image":"https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bWVucyUyMHNob2V8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+
+  },
+  {
+    "id":9,
+    "title":" black shoes",
+    "price":"70",
+    "quantity":1,
+    "category":"Men Shoes",
+    
+    "description":"This is best",
+    "image":"https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bWVucyUyMHNob2V8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+
+  },
+  {
+    "id":10,
+    "title":" Sneakers",
+    "price":"70",
+    "quantity":1,
+    "category":"Men Shoes",
+    
+    "description":"This is best",
+    "image":"https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bWVucyUyMHNob2V8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+
+  },
+
+  {
+    "id":11,
+    "title":" Sneakers",
+    "price":"70",
+    "quantity":1,
+    "category":"Men Shoes",
+    
+    "description":"This is best",
+    "image":"https://media.istockphoto.com/id/953795296/photo/close-up-view-of-black-sport-running-and-fitness-shoe-sneakers-or-trainers-isolated-on-a-white.jpg?b=1&s=170667a&w=0&k=20&c=WfvW62adXX3L28CuBN542rgpBWAixALZEkxhl_zleTc="
+
+  }
+
+
+
+  
+  
+
+
+>>>>>>> 37a5edb81d5983a122dda08fdb69387246572255
   ]
 }
