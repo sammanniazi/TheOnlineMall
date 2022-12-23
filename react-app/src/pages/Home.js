@@ -10,6 +10,8 @@ import LocalDataHandler from "../../src/localData/local";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 
+import Dealscard from "../pages/Deals/dealscategories"
+
 function Home() {
   const [cart, setCart] = useState(LocalDataHandler.cart);
 
@@ -35,16 +37,15 @@ function Home() {
         <h1>Best Seller Dresses</h1>
       </div>
 
+      <hr/>
       <Bestseller AddToCart={AddToCart} />
-<<<<<<< HEAD
+
+      <br/>
+      <hr/>
+      <Dealscard/>
  
 
      
-=======
-      <hr />
-
-      <NewsLetter />
->>>>>>> 37a5edb81d5983a122dda08fdb69387246572255
 
       <br />
       <hr />

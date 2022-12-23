@@ -7,10 +7,7 @@ import Button from "../../Components/Button";
 
 import Header from "../../Layouts/Header";
 
-<<<<<<< HEAD
 
-=======
->>>>>>> 37a5edb81d5983a122dda08fdb69387246572255
 import Footer from "../../Layouts/Footer";
 import { useNavigate } from "react-router-dom";
 import LocalDataHandler from "../../localData/local";
@@ -49,7 +46,6 @@ const ShopingCart = () => {
   };
 
   function checkout() {
-<<<<<<< HEAD
     navigate("/billingform");
   }
 
@@ -61,17 +57,6 @@ const ShopingCart = () => {
 
 
   }, [data]);
-=======
-    navigate("/signup");
-  }
-
-  // useEffect(() => {
-  //   const sum = data.reduce((sum, data) => {
-  //     return Math.round(sum + data.quantity * data.price);
-  //   }, 0);
-  //   setTotal(sum);
-  // }, [data]);
->>>>>>> 37a5edb81d5983a122dda08fdb69387246572255
 
   return (
     <>
@@ -93,7 +78,6 @@ const ShopingCart = () => {
 
           <tbody>
             {data.map((i, id) => (
-<<<<<<< HEAD
 
 
               <tr key={id}>
@@ -147,55 +131,6 @@ const ShopingCart = () => {
         </Table>
 
 
-=======
-              <tr key={id}>
-                <td>
-                  <img src={i.image} alt="pics" style={{ width: "4rem" }} />{" "}
-                </td>
-                <td>
-                  <h3>{i.title}</h3>
-
-                  <p>
-                    <Badge bg="success">inStock</Badge>
-                  </p>
-                </td>
-
-                <td>
-                  <Button
-                    className="rounded bg-gray-500 w-14 h-14"
-                    name="+"
-                    onClick={(e) => AddToCart(id)}
-                  />
-                  <p className=" text-xl">{i.quantity > 0 ? i.quantity : 0}</p>
-
-                  <br />
-
-                  <Button
-                    className="rounded bg-gray-500 w-14 h-14"
-                    name="-"
-                    onClick={(e) => RemoveFromCart(id)}
-                  />
-                </td>
-                <td>
-                  {i.price}
-
-                  <br />
-                  <Button className="bg-success   " name="Save for later" />
-                  <br />
-                  <br />
-
-                  <Button
-                    className="bg-danger  border-b-2 border-red-600 w-14  "
-                    name="Remove"
-                    onClick={(e) => Remove(id)}
-                  />
-                </td>
-              </tr>
-            ))}
-          </tbody>
-        </Table>
-
->>>>>>> 37a5edb81d5983a122dda08fdb69387246572255
         <div className="flex gap-8">
           <div>
             <p className="font-bold text-xl">Sub-Total</p>

@@ -49,13 +49,13 @@ function ShoesM(props) {
 
       <br></br>
       <div id="example-div" class="  d-flex aligns-items-center justify-content-center" style={{ maxHeight: '100px' }}>
-        <h1>women Shoes</h1>
+        <h1>Men's Shoes</h1>
       </div>
 
       <Cardtry AddToCart={AddToCart} />
 
 
-
+<hr/>
 
       <Footer />
 

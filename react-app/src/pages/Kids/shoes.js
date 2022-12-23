@@ -10,7 +10,7 @@ import Footer from '../../Layouts/Footer';
 //import Cardhome from '../../Components/card';
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
-import Cardtry  from './bagscard';
+import Cardtry  from './shoescard';
 import LocalDataHandler from "../../localData/local";
 
 
@@ -49,7 +49,7 @@ function Shoesk(props) {
 
    <br></br>
    <div id="example-div" class="  d-flex aligns-items-center justify-content-center"    style={{ maxHeight: '100px'}}>
-      <h1>women Shoes</h1>
+      <h1>kids Shoes</h1>
  </div>
 
         <Cardtry AddToCart={AddToCart}/>

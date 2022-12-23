@@ -33,7 +33,7 @@ function Login() {
       });
 
       if(userFound === true){
-        navigate("/");
+        navigate("/admin");
       }else{
 
         alert("please create user")

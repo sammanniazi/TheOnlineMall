@@ -10,7 +10,7 @@ import Footer from '../../Layouts/Footer';
 //import Cardhome from '../../Components/card';
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
-import Cardtry  from './clothcard';
+import Cardtry  from './Dealscard';
 import LocalDataHandler from "../../localData/local";
 
 
@@ -22,7 +22,7 @@ import LocalDataHandler from "../../localData/local";
 
 
 
-function ClothM(props) {
+function BagsK(props) {
   
 
   const [cart, setCart] = useState(LocalDataHandler.cart);
@@ -49,14 +49,13 @@ function ClothM(props) {
 
    <br></br>
    <div id="example-div" class="  d-flex aligns-items-center justify-content-center"    style={{ maxHeight: '100px'}}>
-      <h1>Dresses for Men</h1>
+      <h1>Special Deals</h1>
  </div>
 
         <Cardtry AddToCart={AddToCart}/>
-        
 
 
-<hr/>
+
      
    <Footer/>
 
@@ -66,4 +65,4 @@ function ClothM(props) {
   );
 }
 
-export default ClothM;
+export default BagsK;

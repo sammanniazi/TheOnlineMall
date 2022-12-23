@@ -31,7 +31,7 @@ function MenC(props) {
     //   localStorage.getItem("user", JSON.stringify(a));
     // }
 
-    const URL = "http://localhost:5000/bestSeller";
+    const URL = "http://localhost:5000/MenDress";
     useEffect(() => {
         fetchData();
     }, []);

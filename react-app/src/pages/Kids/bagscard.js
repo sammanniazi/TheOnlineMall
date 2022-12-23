@@ -12,7 +12,7 @@ import { Button, CardActionArea, CardActions } from '@mui/material';
 
 
 
-function Kidb(props) {
+function Kidsbags(props) {
 
 
 
@@ -31,7 +31,7 @@ function Kidb(props) {
     //   localStorage.getItem("user", JSON.stringify(a));
     // }
 
-    const URL = "http://localhost:5000/bestSeller";
+    const URL = "http://localhost:5000/Kidsbags";
     useEffect(() => {
         fetchData();
     }, []);
@@ -95,4 +95,4 @@ function Kidb(props) {
     );
 }
 
-export default kidb;
+export default Kidsbags;

@@ -1,5 +1,7 @@
 import React from "react";
+
 import { Link } from "react-router-dom";
+
 import localDataHandler from "../localData/local";
 const Navbar = (props) => {
   return (
@@ -113,23 +115,23 @@ const Navbar = (props) => {
                   Kids
                 </a>
                 <ul className="dropdown-menu">
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Action
-                    </a>
+                <li>
+                    <Link to="/kidscloth" className="dropdown-item">
+                      Clothing
+                    </Link>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
-                      Another action
-                    </a>
+                    <Link to="/kidsshoes" className="dropdown-item">
+                      Shoes
+                    </Link>
                   </li>
                   <li>
                     <hr className="dropdown-divider" />
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
-                      Something else here
-                    </a>
+                    <Link to="/kidsbag" className="dropdown-item">
+                      Bags
+                    </Link>
                   </li>
                 </ul>
               </li>

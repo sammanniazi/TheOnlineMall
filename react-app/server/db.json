@@ -15,7 +15,6 @@
   ],
   "bestSeller": [
     {
-<<<<<<< HEAD
       "id": 1,
       "title": "kurta ",
       "price": "10",
@@ -115,6 +114,595 @@
       "image": "https://media.istockphoto.com/id/953795296/photo/close-up-view-of-black-sport-running-and-fitness-shoe-sneakers-or-trainers-isolated-on-a-white.jpg?b=1&s=170667a&w=0&k=20&c=WfvW62adXX3L28CuBN542rgpBWAixALZEkxhl_zleTc="
     }
   ],
+  "womendress": [
+   
+    {
+      "title": " khaddar shirt",
+      "price": "100",
+      "quantity": "14",
+      "category": "dress",
+      "description": "this is 3 piece khadar dress",
+      "image": "https://i.pinimg.com/474x/36/6f/61/366f61756e33014429f8ec6dc1d1067b.jpg",
+      "id": 12
+    },
+    {
+      "title": "printed dress",
+      "price": "4000",
+      "quantity": "3",
+      "category": "women dress",
+      "description": "Women Dress Crew-neck Short-sleeve Printed Dress Waist-ing A-line Skirt color",
+      "image": "https://i.pinimg.com/564x/39/e5/93/39e5936670fd52512557d525b23ec511.jpg",
+      "id": 13
+    },
+    {
+      "title": "Long dress",
+      "price": "2000",
+      "quantity": "3",
+      "category": "women dress",
+      "description": "available in different colours",
+      "image": "https://i.pinimg.com/564x/fd/cf/e9/fdcfe946eebad75865edc729d828982d.jpg",
+      "id": 14
+    },
+    {
+      "title": "indian dress",
+      "price": "2000",
+      "quantity": "4",
+      "category": "women dress",
+      "description": "available in different colour",
+      "image": "https://i.pinimg.com/564x/e7/5f/f5/e75ff58c577eb77de07023a5d2d415ba.jpg",
+      "id": 15
+    },
+    {
+      "title": "Long dress",
+      "price": "2000",
+      "quantity": "7",
+      "category": "Long dress",
+      "description": "only one piece ",
+      "image": "https://i.pinimg.com/564x/c3/03/e5/c303e581eb57ae74043f9dae457b03f0.jpg",
+      "id": 16
+    },
+    {
+      "title": "modern girl abaya style ",
+      "price": "2000",
+      "quantity": "4",
+      "category": "women dress",
+      "description": "Long dress",
+      "image": "https://i.pinimg.com/564x/bc/36/a1/bc36a1a535e8b3a4ed2e08a541107d96.jpg",
+      "id": 17
+    }
+  ],
+  "womenShoes": [
+    {
+      "id": 1,
+      "title": " Sneakers",
+      "price": "70",
+      "quantity": 1,
+      "category": "Men Shoes",
+      "description": "This is best",
+      "image": "https://media.istockphoto.com/id/953795296/photo/close-up-view-of-black-sport-running-and-fitness-shoe-sneakers-or-trainers-isolated-on-a-white.jpg?b=1&s=170667a&w=0&k=20&c=WfvW62adXX3L28CuBN542rgpBWAixALZEkxhl_zleTc="
+    },
+   
+    
+    {
+      "title": "shoes",
+      "price": "5000",
+      "quantity": "3",
+      "category": "women shoes",
+      "description": "Y2K Aesthetic Outfits Fashion Grunge Clothing – Trending Aesthetic Style – Black White Aesthetic Sneakers",
+      "image": "https://i.pinimg.com/564x/88/39/98/883998c14e7dead2f24a03d587ec5086.jpg",
+      "id": 5
+    },
+    {
+      "title": "shoes",
+      "price": "3000",
+      "quantity": "2",
+      "category": "women shoes",
+      "description": "white stylish shoes",
+      "image": "https://i.pinimg.com/564x/f7/fc/be/f7fcbefcae9380411b301fea29e4079e.jpg",
+      "id": 6
+    },
+    {
+      "title": "shoes",
+      "price": "37",
+      "quantity": "2",
+      "category": "women shoes",
+      "description": "white shoes",
+      "image": "https://i.pinimg.com/564x/b5/1e/34/b51e34dbf254e9b334f6f4ad002fe0b3.jpg",
+      "id": 7
+    },
+    {
+      "title": "shoes",
+      "price": "23",
+      "quantity": "2",
+      "category": "women shoes",
+      "description": "black color",
+      "image": "https://i.pinimg.com/564x/6c/ea/13/6cea1361ca47c1189957634abe73d685.jpg",
+      "id": 8
+    },
+    {
+      "title": "shoes",
+      "price": "23",
+      "quantity": "2",
+      "category": "women shoes",
+      "description": "pink color",
+      "image": "https://i.pinimg.com/564x/bb/5d/af/bb5daf9cccd1f4daa60525f275c2579b.jpg",
+      "id": 9
+    },
+    {
+      "title": "sandles",
+      "price": "230",
+      "quantity": "2",
+      "category": "for women",
+      "description": "Blackpink & Bts Ff",
+      "image": "https://i.pinimg.com/564x/94/e8/12/94e812c186f52c61053d13ac3090f295.jpg",
+      "id": 10
+    }
+  ],
+  "womenBags": [
+    
+    
+    {
+      "title": "bags",
+      "price": "20",
+      "quantity": "5",
+      "category": "women bags",
+      "description": "Yellow Fashionable Collar PU Leather Quilted Square Bag Embellished Women Bags",
+      "image": "https://i.pinimg.com/564x/90/3c/ff/903cff2ee1ebd6426a724cc7b200d12b.jpg",
+      "id": 13
+    },
+    {
+      "title": "bags",
+      "price": "20",
+      "quantity": "3",
+      "category": "women bag",
+      "description": "Khaki Fashionable Collar PU Leather Plain Ruched Bag Embellished Women Bags",
+      "image": "https://i.pinimg.com/564x/7d/c1/9b/7dc19be519c67137618343b355035413.jpg",
+      "id": 14
+    },
+    {
+      "title": "bags",
+      "price": "200",
+      "quantity": "2",
+      "category": "women bag",
+      "description": "If you are looking for high quality authentic bags, click the photo #luxurybag #authenticbag",
+      "image": "https://i.pinimg.com/564x/bb/62/3a/bb623ad4c55cfe22ce6b5b54f41a2c24.jpg",
+      "id": 15
+    },
+    {
+      "title": "bags",
+      "price": "40",
+      "quantity": "3",
+      "category": "women bags",
+      "description": "Image shared by Algerina. Find images and videos about aesthetic, girly and luxury on We Heart It - the app to get lost in what you love",
+      "image": "https://i.pinimg.com/564x/9e/3e/53/9e3e5374dc1dc28024826a8a9e8181e2.jpg",
+      "id": 16
+    },
+    {
+      "title": "bags",
+      "price": "300",
+      "quantity": "4",
+      "category": "women bags",
+      "description": "in four colors",
+      "image": "https://i.pinimg.com/564x/4b/e1/24/4be12451ea533244a1090e96d8a5c3dd.jpg",
+      "id": 17
+    },
+    {
+      "title": "bags",
+      "price": "30",
+      "quantity": "2",
+      "category": "women bags",
+      "description": "sky blue ",
+      "image": "https://i.pinimg.com/564x/35/a3/f3/35a3f3c324bbee7ee93f9fdec1df2d92.jpg",
+      "id": 18
+    }
+  ],
+  "womenjewlery": [
+   
+    {
+      "title": "jewlery",
+      "price": "20",
+      "quantity": "3",
+      "category": "women jewelry",
+      "description": "bracelets",
+      "image": "https://i.pinimg.com/564x/f2/76/43/f276431bb805599a0c1457b113e425a3.jpg",
+      "id": 12
+    },
+    {
+      "title": "jewelry",
+      "price": "20",
+      "quantity": "2",
+      "category": "women jewelry",
+      "description": "Twist Rings Sets for Women Girl Wedding Jewelry",
+      "image": "https://i.pinimg.com/564x/5d/4a/8b/5d4a8b3a1250bb5ee0eefba42f4851db.jpg",
+      "id": 13
+    },
+    {
+      "title": "jewelry",
+      "price": "30",
+      "quantity": "23",
+      "category": "women jewelry",
+      "description": "12Pairs pearl and heart decor Earrings",
+      "image": "https://i.pinimg.com/564x/2c/1b/49/2c1b4949dcee08dbe0921fb536229280.jpg",
+      "id": 14
+    },
+    {
+      "title": "jewelry",
+      "price": "20",
+      "quantity": "3",
+      "category": "women jewelry",
+      "description": "pendent",
+      "image": "https://i.pinimg.com/564x/6e/c7/03/6ec703eb79e70d01f43689e5494848cb.jpg",
+      "id": 15
+    },
+    {
+      "title": "jewelry",
+      "price": "30",
+      "quantity": "10",
+      "category": "women jewelry",
+      "description": "Luxury 18K Rose Gold Plated Bracelet Square With Sparkling White Cubic Zirconia For Women Girls ",
+      "image": "https://i.pinimg.com/564x/e9/2c/13/e92c1322167c39f219fa85fb5c691ffa.jpg",
+      "id": 16
+    },
+    {
+      "title": "jewelry",
+      "price": "20",
+      "quantity": "400",
+      "category": "women jewelry",
+      "description": "different hair accessories for girls",
+      "image": "https://i.pinimg.com/736x/06/9b/eb/069beb04ca4dfeaf3422946502a5898c.jpg",
+      "id": 17
+    }
+  ],
+  "MenBags": [
+    
+   
+    
+    {
+      "title": "bags",
+      "price": "300",
+      "quantity": "10",
+      "category": "Men bags",
+      "description": "Men Nylon Casual Multi-Pockets Sport Black Crossbody Bag",
+      "image": "https://i.pinimg.com/564x/62/ad/7d/62ad7d1c5a747b69ed20b2a948bc61e4.jpg",
+      "id": 4
+    },
+    {
+      "title": "bags",
+      "price": "200",
+      "quantity": "10",
+      "category": "men bags",
+      "description": "easy to carry",
+      "image": "https://i.pinimg.com/564x/90/4b/f2/904bf2cd049b8b41c32b8178fbb80cad.jpg",
+      "id": 5
+    },
+    {
+      "title": "bags",
+      "price": "300",
+      "quantity": "10",
+      "category": "men bags",
+      "description": "easy to wear",
+      "image": "https://i.pinimg.com/564x/a9/25/8b/a9258b7657183a9e513b04add19e33e8.jpg",
+      "id": 6
+    },
+    {
+      "title": "bags",
+      "price": "200",
+      "quantity": "10",
+      "category": "men bags",
+      "description": "easy to wear",
+      "image": "https://i.pinimg.com/564x/d4/d6/3a/d4d63acb1b759776d1b68edefce1a6af.jpg",
+      "id": 7
+    },
+    {
+      "title": "bags",
+      "price": "200",
+      "quantity": "10",
+      "category": "men bags",
+      "description": "easy to wear",
+      "image": "https://i.pinimg.com/564x/bd/af/bb/bdafbbd9cc7ad728c52d6225e73b7c5d.jpg",
+      "id": 8
+    },
+    {
+      "title": "bags",
+      "price": "200",
+      "quantity": "10",
+      "category": "men bags",
+      "description": "easy to wear",
+      "image": "https://i.pinimg.com/564x/72/4f/79/724f791520114f0de78edb8e619444a1.jpg",
+      "id": 9
+    }
+  ],
+  "MenDress": [
+   
+   
+    {
+      "title": "dresses",
+      "price": "200",
+      "quantity": "10",
+      "category": "men dress",
+      "description": "comfortable to wear",
+      "image": "https://i.pinimg.com/564x/6a/0d/4c/6a0d4cd249cbbed5ebb1881a91d7ec5d.jpg",
+      "id": 4
+    },
+    {
+      "title": "dresses",
+      "price": "300",
+      "quantity": "10",
+      "category": "men dress",
+      "description": "comfortable to wear",
+      "image": "https://i.pinimg.com/564x/04/f7/c1/04f7c1dee9cb9d97cdd6dd7c3e59b48d.jpg",
+      "id": 5
+    },
+    {
+      "title": "dresses",
+      "price": "23",
+      "quantity": "1",
+      "category": "men dress",
+      "description": "easy to wears",
+      "image": "https://i.pinimg.com/564x/c5/2a/ce/c52aced90abb1be8df290ea19a820a03.jpg",
+      "id": 6
+    },
+    {
+      "title": "dresses",
+      "price": "200",
+      "quantity": "10",
+      "category": "men dress",
+      "description": "brown color",
+      "image": "https://i.pinimg.com/564x/de/c8/a5/dec8a52ae2c1d64973d5341f4a5470d6.jpg",
+      "id": 7
+    },
+    {
+      "title": "dresses",
+      "price": "30",
+      "quantity": "1",
+      "category": "men dress",
+      "description": "black and blue contras for boys",
+      "image": "https://i.pinimg.com/564x/c5/b0/21/c5b0214ab7b5dcd34a4687f09ea21158.jpg",
+      "id": 8
+    },
+    {
+      "title": "dresses",
+      "price": "30",
+      "quantity": "10",
+      "category": "men dress",
+      "description": "black jacket",
+      "image": "https://i.pinimg.com/564x/1a/64/3d/1a643db0239f3d7aa702d2dc0f226f8d.jpg",
+      "id": 9
+    }
+  ],
+  "MenShoes": [
+    {
+      "id": 1,
+      "title": " Sneakers",
+      "price": "70",
+      "quantity": 1,
+      "category": "Men Shoes",
+      "description": "This is best",
+      "image": "https://media.istockphoto.com/id/953795296/photo/close-up-view-of-black-sport-running-and-fitness-shoe-sneakers-or-trainers-isolated-on-a-white.jpg?b=1&s=170667a&w=0&k=20&c=WfvW62adXX3L28CuBN542rgpBWAixALZEkxhl_zleTc="
+    },
+    {
+      "title": "men shoes",
+      "price": "56",
+      "quantity": "njnj",
+      "category": "njdnkj",
+      "description": "nkjnkj",
+      "image": "njhuihij",
+      "id": 2
+    },
+    {
+      "title": "shoes",
+      "price": "3000",
+      "quantity": "10",
+      "category": "men shoes",
+      "description": "black color",
+      "image": "https://i.pinimg.com/564x/c1/4c/8c/c14c8c4d325a2232506959175c2f91c4.jpg",
+      "id": 3
+    },
+    {
+      "title": "shoes",
+      "price": "1500",
+      "quantity": "20",
+      "category": "men shoes",
+      "description": "nike shoes",
+      "image": "https://i.pinimg.com/564x/bc/cf/5d/bccf5d5e86f1046ca131af08b4da8431.jpg",
+      "id": 4
+    },
+    {
+      "title": "shoes",
+      "price": "1300",
+      "quantity": "10",
+      "category": "men shoes",
+      "description": "easy to wear",
+      "image": "https://i.pinimg.com/564x/53/91/53/539153b360900204d19b43a6ad3b21b8.jpg",
+      "id": 5
+    },
+    {
+      "title": "shoes",
+      "price": "1200",
+      "quantity": "20",
+      "category": "men shoes",
+      "description": "Men Microfiber Leather Soft Hand Stitching Ankle Boots",
+      "image": "https://i.pinimg.com/564x/3d/fc/5b/3dfc5b091498ef0e75868e842392ebe2.jpg",
+      "id": 6
+    },
+    {
+      "title": "shoes",
+      "price": "200",
+      "quantity": "10",
+      "category": "men shoes",
+      "description": "easy to wear",
+      "image": "https://i.pinimg.com/564x/36/1e/b1/361eb1830d3a2387fc118fab2b4215fe.jpg",
+      "id": 7
+    }
+  ],
+  "Kidsshoes": [
+
+
+   
+    {
+      "title": "shoes",
+      "price": "200",
+      "quantity": "10",
+      "category": "kid shoes",
+      "description": "latest design for kid",
+      "image": "https://i.pinimg.com/564x/03/34/ed/0334ed457a08ae894ff7c0b0bea6e5ce.jpg",
+      "id": 13
+    },
+    {
+      "title": "shoes",
+      "price": "200",
+      "quantity": "10",
+      "category": "kid shoes",
+      "description": "cute shoes for kid",
+      "image": "https://i.pinimg.com/564x/df/06/2c/df062c0429da0422ea458873d640673f.jpg",
+      "id": 14
+    },
+    {
+      "title": "shoes",
+      "price": "200",
+      "quantity": "10",
+      "category": "kid shoes",
+      "description": "new collection for kid",
+      "image": "https://i.pinimg.com/736x/ef/53/25/ef532579b93f8647b48d9968a2a67d46.jpg",
+      "id": 15
+    },
+    {
+      "title": "shoes",
+      "price": "200",
+      "quantity": "10",
+      "category": "kid shoes",
+      "description": "here is new collection for kid",
+      "image": "https://i.pinimg.com/736x/6b/b0/2f/6bb02f997f3fb2764711a91116bc539e.jpg",
+      "id": 16
+    }
+  ],
+  "KidsDress": [
+    
+    
+    {
+      "title": "dresses",
+      "price": "2000",
+      "quantity": "10",
+      "category": "kid dresses",
+      "description": "latest stylish and trendy little girl dress",
+      "image": "https://i.pinimg.com/564x/1b/88/24/1b88243eb0232dc2b14321a495e601c9.jpg",
+      "id": 25
+    },
+    {
+      "title": "dresses",
+      "price": "200",
+      "quantity": "10",
+      "category": "kid dresses",
+      "description": "latest stylish and trendy little girl dress",
+      "image": "https://i.pinimg.com/564x/45/db/74/45db742845cad90f67174ec4cc5c7dd1.jpg",
+      "id": 26
+    },
+    {
+      "title": "dresses",
+      "price": "300",
+      "quantity": "10",
+      "category": "kid dress",
+      "description": "latest stylish and trendy little girl dress",
+      "image": "https://i.pinimg.com/564x/f0/20/e1/f020e1636f1663ed6eb743257de2693b.jpg",
+      "id": 27
+    },
+    {
+      "title": "dresses",
+      "price": "1000",
+      "quantity": "10",
+      "category": "kid dress",
+      "description": "latest beautiful dress",
+      "image": "https://i.pinimg.com/564x/88/99/fe/8899fea691b3feb27bb6757a05116890.jpg",
+      "id": 28
+    },
+    {
+      "title": "dresses",
+      "price": "200",
+      "quantity": "10",
+      "category": "kid dress",
+      "description": "latest collection",
+      "image": "https://i.pinimg.com/564x/a2/dc/b3/a2dcb30ea19e3b272edaef8a739b2840.jpg",
+      "id": 29
+    },
+    {
+      "title": "dresses",
+      "price": "200",
+      "quantity": "10",
+      "category": "kid dress",
+      "description": "new collection",
+      "image": "https://i.pinimg.com/564x/4e/1c/20/4e1c20cbb76b8f71614d5a9f998a35cc.jpg",
+      "id": 30
+    }
+  ],
+  "Kidsbags": [
+    
+    
+    {
+      "title": "bags",
+      "price": "200",
+      "quantity": "10",
+      "category": "kid bags",
+      "description": "here is the cute bag for kid",
+      "image": "https://i.pinimg.com/564x/37/e2/fa/37e2fa90d1ed2040cc256a3e935b73bd.jpg",
+      "id": 4
+    },
+    {
+      "title": "bags",
+      "price": "2000",
+      "quantity": "20",
+      "category": "kid bags",
+      "description": "sky blue collection",
+      "image": "https://i.pinimg.com/564x/72/b9/d2/72b9d2b67730aca970c6bdb3f03a94dc.jpg",
+      "id": 5
+    },
+    {
+      "title": "bags",
+      "price": "200",
+      "quantity": "10",
+      "category": "kid bag",
+      "description": "beautiful bag for kids ",
+      "image": "https://i.pinimg.com/564x/25/ad/9c/25ad9c4432b947b5fbe4a1de169b108f.jpg",
+      "id": 6
+    },
+    {
+      "title": "bags",
+      "price": "300",
+      "quantity": "10",
+      "category": "kid bag",
+      "description": "spiderman bag collection",
+      "image": "https://i.pinimg.com/564x/f1/4a/8c/f14a8ce2247d14e21682eaab1d0abee3.jpg",
+      "id": 7
+    },
+    {
+      "title": "bags",
+      "price": "200",
+      "quantity": "10",
+      "category": "kid bags",
+      "description": "Personalized Leya Dolls and Backpacks with baby's name. Authorized Gloveleya doll",
+      "image": "https://i.pinimg.com/564x/fe/1f/36/fe1f3634916eb8f6cafa234e204c2d19.jpg",
+      "id": 8
+    },
+    {
+      "title": "bags",
+      "price": "200",
+      "quantity": "10",
+      "category": "kid bags",
+      "description": "new collection",
+      "image": "https://i.pinimg.com/564x/3c/5a/d2/3c5ad248f2e66e85f1c7e4a7232bf561.jpg",
+      "id": 9
+    }
+  ],
+  "HomeDecore": [
+    {
+      "id": 3,
+      "title": " Sneakers",
+      "price": "70",
+      "quantity": 1,
+      "category": "Men Shoes",
+      "description": "This is best",
+      "image": "https://media.istockphoto.com/id/953795296/photo/close-up-view-of-black-sport-running-and-fitness-shoe-sneakers-or-trainers-isolated-on-a-white.jpg?b=1&s=170667a&w=0&k=20&c=WfvW62adXX3L28CuBN542rgpBWAixALZEkxhl_zleTc="
+    }
+  ],
   "shipping": [
     {
       "id": 1,
@@ -158,140 +746,5 @@
       ],
       "id": 3
     }
-=======
-      "id":1,
-      "title":"kurta ",
-      "price":"10",
-      "quantity":1,
-      "category":"women dress",
-      
-      "description":"This is lawn kurta by khaddi",
-      "image":"data:image/jpeg;base64,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"
-      
-  },
-
-  {
-    "id":2,
-    "title":"kurta ",
-    "price":"10",
-    "quantity":1,
-    "category":"women dress",
-    
-    "description":"This is lawn kurta by khaddi",
-    "image":"https://pk.khaadi.com/media/catalog/product/e/s/est22113_off-white_1_1.jpg?quality=95&bg-color=255,255,255&fit=bounds&height=&width="
-
-  },
-
-
-  {
-    "id":3,
-    "title":" Classic Kurta",
-    "price":"10",
-    "quantity":1,
-    "category":"women dress",
-    
-    "description":"This is lawn kurta by khaddi",
-    "image":"https://pk.khaadi.com/media/catalog/product/e/s/est22480_blue_2.jpg?width=300&height=&canvas=300:&quality=95&bg-color=255,255,255&fit=bounds"
-
-  },
-  {
-    "id":4,
-    "title":" Round shape T shirt",
-    "price":"70",
-    "quantity":1,
-    "category":"women dress",
-    
-    "description":"This is lawn kurta by khaddi",
-    "image":"https://pk.khaadi.com/media/catalog/product/w/c/wckt22405_white_2.jpg?width=300&height=&canvas=300:&quality=95&bg-color=255,255,255&fit=bounds"
-
-  },
-  {
-    "id":5,
-    "title":"kurta ",
-    "price":"10",
-    "quantity":1,
-    "category":"women dress",
-    
-    "description":"This is lawn kurta by khaddi",
-    "image":"data:image/jpeg;base64,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"
-    
-},
-
-{
-  "id":6,
-  "title":"kurta ",
-  "price":"10",
-  "quantity":1,
-  "category":"women dress",
-  
-  "description":"This is lawn kurta by khaddi",
-  "image":"https://pk.khaadi.com/media/catalog/product/e/s/est22113_off-white_1_1.jpg?quality=95&bg-color=255,255,255&fit=bounds&height=&width="
-
-},
-  {
-    "id":7,
-    "title":" shoes",
-    "price":"70",
-    "quantity":1,
-    "category":"Men Shoes",
-    
-    "description":"This is best",
-    "image":"https://media.istockphoto.com/id/187310279/photo/brown-leather-shoe.jpg?s=612x612&w=0&k=20&c=N-G1SP8dDojp3M_ykS7tQuYI8OVPWM0XA8_knBiWRtY="
-
-  },
-
-  {
-    "id":8,
-    "title":" shoes",
-    "price":"70",
-    "quantity":1,
-    "category":"Men Shoes",
-    
-    "description":"This is best",
-    "image":"https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bWVucyUyMHNob2V8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
-
-  },
-  {
-    "id":9,
-    "title":" black shoes",
-    "price":"70",
-    "quantity":1,
-    "category":"Men Shoes",
-    
-    "description":"This is best",
-    "image":"https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bWVucyUyMHNob2V8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
-
-  },
-  {
-    "id":10,
-    "title":" Sneakers",
-    "price":"70",
-    "quantity":1,
-    "category":"Men Shoes",
-    
-    "description":"This is best",
-    "image":"https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bWVucyUyMHNob2V8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
-
-  },
-
-  {
-    "id":11,
-    "title":" Sneakers",
-    "price":"70",
-    "quantity":1,
-    "category":"Men Shoes",
-    
-    "description":"This is best",
-    "image":"https://media.istockphoto.com/id/953795296/photo/close-up-view-of-black-sport-running-and-fitness-shoe-sneakers-or-trainers-isolated-on-a-white.jpg?b=1&s=170667a&w=0&k=20&c=WfvW62adXX3L28CuBN542rgpBWAixALZEkxhl_zleTc="
-
-  }
-
-
-
-  
-  
-
-
->>>>>>> 37a5edb81d5983a122dda08fdb69387246572255
   ]
 }

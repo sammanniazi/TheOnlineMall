@@ -12,7 +12,7 @@ import { Button, CardActionArea, CardActions } from '@mui/material';
 
 
 
-function WomenS(props) {
+function Deals(props) {
 
 
 
@@ -31,7 +31,7 @@ function WomenS(props) {
     //   localStorage.getItem("user", JSON.stringify(a));
     // }
 
-    const URL = "http://localhost:5000/womenShoes";
+    const URL = "http://localhost:5000/bestSeller";
     useEffect(() => {
         fetchData();
     }, []);
@@ -95,4 +95,4 @@ function WomenS(props) {
     );
 }
 
-export default WomenS;
+export default Deals;
