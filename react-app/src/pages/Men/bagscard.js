@@ -9,7 +9,7 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { Button, CardActionArea, CardActions } from '@mui/material';
-
+import { useNavigate } from "react-router-dom";
 
 
 function Menb(props) {
@@ -20,6 +20,7 @@ function Menb(props) {
     // var myMap = new Map();
 
     const [data, getData] = useState([]);
+    const navigate = useNavigate();
 
 
     // function savecartdata(data) {
@@ -48,6 +49,11 @@ function Menb(props) {
             });
         console.log(data);
     };
+    if(data.length<=0) {
+
+
+        navigate("/error")
+       }
 
     return (
         <>

@@ -59,7 +59,10 @@ import KidDressForm from "../Dashboard/Kids/adddress";
 
 import Auth from "../Components/auth";
 
+import Orders from '../Dashboard/order';
 
+
+import Error from "../Components/Error";
 
 
 
@@ -73,6 +76,7 @@ import Auth from "../Components/auth";
 
 
 function Routing() {
+
 
 
 
@@ -130,6 +134,8 @@ function Routing() {
             <Route path ="/addkidsshoes" element={<KidShoesForm/>}/>
             <Route path ="/addkidsbags" element={<KidBagsForm/>}/>
             <Route path ="/addkidsdress" element={<KidDressForm/>}/>
+            <Route path ="/orders" element={<Orders/>}/>
+            <Route path ="/error" element={<Error/>}/>
 
 
 

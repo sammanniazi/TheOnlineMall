@@ -48,11 +48,13 @@ function BillForm() {
 
   const handlesubmit = (e) => {
     e.preventDefault();
-    const user = {
+    if (Name==="" ||Email==="" || Contact===""|| Address==="") alert("Fields cannot be empty")
+    else{const user = {
       
       Name: Name,
       Email:Email,
       Contact: Contact,
+      Address:Address,
       products:CartData
      
       
@@ -83,14 +85,14 @@ function BillForm() {
           setContact("");
           setAddress("");
           
-          // alert("user created successfully");
+           alert("Thank you for placing order.For future update plase visit our website");
           navigate("/");
        
         } else {
           console.log("Some error occured");
         }
       })
-      .then((info) => console.log(info));
+      .then((info) => console.log(info));}
   
    
     // res.then((ress)=> console.log("RESS :: ",ress.status));
@@ -120,6 +122,7 @@ function BillForm() {
             placeholder="Name"
             value={Name}
             onChange={(e) => setName(e.target.value) }
+         
           required/>
 
 <Form.Label>Email</Form.Label>

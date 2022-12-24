@@ -6,6 +6,7 @@ import { useState } from "react";
 import { useNavigate,Link } from "react-router-dom";
 import Header from '../Layouts/Header';
 import Footer from '../Layouts/Footer';
+import SimpleReactValidator from 'simple-react-validator';
 
 
 function Signup() {
@@ -17,6 +18,9 @@ function Signup() {
   
   const [tempdata, setTempdata] = useState([]);
   const navigate = useNavigate();
+
+
+  const validator=new SimpleReactValidator();
  
 
   // useEffect(() => {
@@ -33,7 +37,12 @@ function Signup() {
 
   const handlesubmit = (e) => {
     e.preventDefault();
-    const user = {
+    if (Name==="" ||Email==="" || Password==="") alert("Fields cannot be empty")
+    if ( Name.length>0 ) if(Name[0].toUpperCase()!==Name[0]) alert("First letter must be capital")
+    if(Password.length<4 || Password.length>10) alert("password must be between 4 to 10 digits")
+
+
+  else{const user = {
       
       Name: Name,
       Email:Email,
@@ -44,7 +53,7 @@ function Signup() {
     };
     console.log(user);
 
-    let res = fetch("http://localhost:5000/users", {
+    fetch("http://localhost:5000/users", {
       method: "POST",
       headers: {
         "content-Type": "application/json",
@@ -60,13 +69,13 @@ function Signup() {
           setPassword("");
           
           localStorage.setItem("user", JSON.stringify(user))
-          // alert("user created successfully");
+           alert("user created successfully");
           navigate("/");
         } else {
           console.log("Some error occured");
         }
       })
-      .then((info) => console.log(info));
+      .then((info) => console.log(info));}
   
    
     // res.then((ress)=> console.log("RESS :: ",ress.status));
@@ -78,7 +87,7 @@ function Signup() {
     <Header/>
 <br/>
     <div className="container mt-5 w-25 border p-5 shadow bg-white rounded">
-      <Form>
+      <Form type="submit" onSubmit={handlesubmit}>
         
 
         <Form.Group className="mb-3" controlId="formBasicPassword">
@@ -87,24 +96,31 @@ function Signup() {
             type="text"
             placeholder="Name"
             value={Name}
+            required="required"
             onChange={(e) => setName(e.target.value) }
-          required/>
+
+            minLength={3} maxlength={20}
+
+          
+          />
 
 <Form.Label>Email</Form.Label>
           <Form.Control className="bg-light"
-            type="text"
+            type="Email"
             placeholder="Email"
             value={Email}
+            required="required"
             onChange={(e) => setEmail(e.target.value) }
-          required/>
+          />
 
 <Form.Label>Password</Form.Label>
           <Form.Control className="bg-light"
             type="text"
             placeholder="Password"
             value={Password}
+            required="required"
             onChange={(e) => setPassword(e.target.value) }
-          required/>
+          />
 
         </Form.Group>
        
@@ -112,7 +128,8 @@ function Signup() {
 
 
         <br></br>
-        <Button variant="primary" type="submit" onClick={handlesubmit}>
+        <Button variant="primary" type="submit" onSubmit={handlesubmit}>
+
           Create User
         </Button>
         <br></br>

@@ -33,6 +33,7 @@ function Login() {
       });
 
       if(userFound === true){
+        alert("you are login successfully")
         navigate("/admin");
       }else{
 
@@ -67,7 +68,7 @@ function Login() {
           />
           <Form.Label>Password</Form.Label>
           <Form.Control className="bg-light"
-            type="Text"
+            type="Email"
             placeholder="Password"
             value={Password}
             onChange={(e) => {setPassword(e.target.value)

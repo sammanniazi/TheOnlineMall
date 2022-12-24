@@ -10,7 +10,7 @@ import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { Button, CardActionArea, CardActions } from '@mui/material';
 import Grid from "@mui/material/Grid";
-
+import { useNavigate } from "react-router-dom";
 
 
 function Bestsell(props) {
@@ -21,6 +21,7 @@ function Bestsell(props) {
     // var myMap = new Map();
 
     const [data, getData] = useState([]);
+    const navigate = useNavigate();
 
 
     // function savecartdata(data) {
@@ -48,7 +49,14 @@ function Bestsell(props) {
                 getData(response);
             });
         console.log(data);
+
+       
     };
+    if(data.length<=0) {
+
+
+        navigate("/error")
+       }
 
     return (
         <>

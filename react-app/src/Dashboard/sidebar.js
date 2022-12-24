@@ -78,8 +78,8 @@ function App() {
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="#" className="nav-link px-0 align-middle">
-                                        <i className="fs-4 bi-table"></i> <span class="ms-1 d-none d-sm-inline">Orders</span></a>
+                                    <Link to="/orders" className="nav-link px-0 align-middle">
+                                        <i className="fs-4 bi-table"></i> <span class="ms-1 d-none d-sm-inline">Orders</span></Link>
                                 </li>
                                 
                                 
