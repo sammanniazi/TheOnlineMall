@@ -1,8 +1,8 @@
 First clone this project
 Main folder name is react-app
 
-//For starting frontend or react application
-open terminal
+//For starting frontend or react application 
+open terminal for running frotend
 cd react-app
 npm i
 npm start
